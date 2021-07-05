@@ -1,3 +1,48 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.head{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.eat-healthy{
+    width: 50%;
+    color: slategray;
+    font-size: 40px;
+}
+.head img{
+    width: 80%;
+}
+.different-color{
+    color: #cc2b5e;
+}
+.paragraph{
+    color: rgb(32, 32, 32);
+    font-size: x-large;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: ivory;
+    font-size: 20px;
+}
+.belly{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.belly img{
+    width: 80%;
+}
+.about-us{
+    width: 50%;
+    color: #cc2b5e;
+    font-size: 40px;
 }
