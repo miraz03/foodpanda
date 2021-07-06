@@ -2,6 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.food-you-love{
+    margin: 50px 300px 0 550px;
+    color: #cc2b5e;
+    font-size: 20px;
+}
 .head{
     display: flex;
     padding-left: 50px;
@@ -53,8 +58,6 @@ body{
     color: #cc2b5e;
     padding-left: 50px;
     padding-right: 50px;
-    /* align-content: center; */
-    /* width: 33.33%; */
 }
 .tail img{
     width: 100%;
@@ -72,11 +75,30 @@ body{
     text-align: center;
 }
 .bounding-box{
-  width: 40%;
+  width: 30%;
   background-color: rgb(241, 241, 241);
-  box-sizing: border-box;
   box-shadow: 0 5px 10px rgb(59, 59, 59);
   border-radius: 50px;
-  padding: 30px;
-  margin: 0 30px;
+  padding: 2%;
+  /* margin: 0 40px; */
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+.social-media{
+    display: flex;
+   margin: 10% 20%;
+    background-color: rgb(241, 241, 241);
+  box-shadow: 0 5px 10px rgb(116, 116, 116);
+  border-radius: 20px;
+  padding-left: 10%
+
+  
+}
+#footer{
+    background-color: rgb(41, 41, 41);
+    height: 200px;
+    color: rgb(241, 241, 241);
+    padding-top: 1%;
+    text-align: center;
 }
